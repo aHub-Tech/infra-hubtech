@@ -1,0 +1,8 @@
+networks:
+  default_vnet: #network name
+    address_space:
+      - 192.168.0.0/16
+    subnets:
+      default_snet: # subnetwork name
+        address_prefixes:
+          - 192.168.0.0/24

@@ -1,0 +1,12 @@
+vms:
+  hub001:
+    size: Standard_D2s_v3
+    vnet_name: default_vnet
+    snet_name: default_snet
+    os_disk:
+      name: hub001_disk1
+      caching: ReadWrite
+      create_option: FromImage
+      managed_disk_type: Premium_LRS
+      size_gb: 30
+    disable_pw_auth: false

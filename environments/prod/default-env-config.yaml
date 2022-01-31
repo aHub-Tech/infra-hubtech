@@ -1,0 +1,16 @@
+rg_name: prod-ahubtech
+location: eastus
+
+compute:
+  vm:
+    storage_image_reference:
+      publisher: "Canonical"
+      offer: "0001-com-ubuntu-server-focal"
+      sku: "20_04-lts-gen2"
+      version: "latest"
+    os_disk:
+      name: os-disk
+      caching: ReadWrite
+      create_option:
+      managed_disk_type:
+      disk_size_gb:

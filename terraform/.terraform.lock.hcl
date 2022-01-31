@@ -1,0 +1,41 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/cloudposse/utils" {
+  version     = "0.17.14"
+  constraints = "0.17.14"
+  hashes = [
+    "h1:8UtU+c8xdY5RlN87r/I3u5VgP6vCG0NPxf9lJ273zj8=",
+    "zh:3f087acb2a028c46ef5de5b399077291f9c17649fb766d619b2d3c859b9b8d78",
+    "zh:43faec4753b20f171795dc61a405e2e8730241959b53a0e0d549684772ce3387",
+    "zh:6ac5abb53c9ee09e703eb9d9bc94c421983b0afea9d4b76bc0e1c8088ac7f601",
+    "zh:6d9ec2f52202afbad6298fabd36c5a2da881dd147b625f19c3a0e4784317a236",
+    "zh:7a13981b601dc041c582f8ff8c60c393062de584c2dda7b8b0d1d93bbe9e8d09",
+    "zh:9a6018876d19317d2a9ce3c73d51a5e94826542721ffade20107c18bc9844795",
+    "zh:9da074239b28af0e005ed014bfc016e1cda6265d5a2f28ba8c98d80953bb830f",
+    "zh:ad335a61508f9025a66f1c13493376e45c3a756dbca28e5cd325918fae9699e6",
+    "zh:ae6ca0e28c03c8973930b55036ba2d6eec05dc6a75ff3729adbe472e1920bb18",
+    "zh:bbd58b2717b8791379dae7b97ca4fc528608eeca330fd3e850064b419453dc91",
+    "zh:c2b866a8c61988faa3294bcaf5ccd6bd3fb9684acf08e8c5e73e5e28852881a3",
+    "zh:da094fbb1863cd1db0d726e3fae03ed0046977957d2f950f5ae81a705446df27",
+    "zh:e14e50b3e4ce91e759af7cbebc0ceca41361e1fc268bdcfe500b08057a3167a3",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/azurerm" {
+  version = "2.94.0"
+  hashes = [
+    "h1:nTfkzw9b0thTll2Z6ToDGp1yYadnAawi7XjDi3uJtBQ=",
+    "zh:02d710ecca217193a18e50e9c203575584a316f1ddab84315ed39b3c6095626c",
+    "zh:02fffe19fd902f9f655ac351a3e9ab568554410d0b3e60df9bd1a5307bc4616d",
+    "zh:0cb8e9c834790834f16e74539245f022bc485d3c683099aa169e55b8cc3bbb69",
+    "zh:13484f97f7a8d194dd57e4332817bde5c7e1bb7b000846ba7232c7da9478f3a8",
+    "zh:17bf1c0716c7df1919c884e84b66e59d30d95ab169d72c9bbb33ed196dc16f22",
+    "zh:1f152c660c33217c55f933eafac0ca2c08a532e9ec2f9d64f3039f638334bca1",
+    "zh:ba344559c2db93dd21e2038b21d92978558247a44ba01b1e1672279083a7708b",
+    "zh:bf08d097cbea5eed1bd2bdc5e447f162393f12eed5d9b9aaf2dc6c9d402858c6",
+    "zh:c5268e5093a2fa17f68c97f7a9934c95645e71538e10d2edd919b91c96060bfd",
+    "zh:d5cffe43a8015ca2ab910eac307203d5bc361f565d2ac4d38231a854555b1403",
+    "zh:e71fb62706200765e3d571f4c34d17f0ab803e01fc592a48445b7b1a7b4cd98c",
+  ]
+}
