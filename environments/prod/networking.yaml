@@ -1,0 +1,29 @@
+networks:
+  hub001: #network name
+    address_space:
+      - 10.0.0.0/16
+    subnets:
+      default: # subnetwork name
+        address_prefixes:
+          - 10.0.0.0/24
+nsgs:
+  hub001:
+    sgs:
+      SSH:
+        priority: 300
+        direction: Inbound
+        access: Allow
+        protocol: TCP
+        destination_port_range: 22
+      HTTPS:
+        priority: 320
+        direction: Inbound
+        access: Allow
+        protocol: TCP
+        destination_port_range: 443
+      HTTP:
+        priority: 340
+        direction: Inbound
+        access: Allow
+        protocol: TCP
+        destination_port_range: 80

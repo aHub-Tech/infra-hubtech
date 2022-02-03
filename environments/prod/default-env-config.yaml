@@ -1,0 +1,17 @@
+rg_name: hub001_group
+location: eastus
+
+compute:
+  vm:
+    boot_diagnostics: true
+    storage_image_reference:
+      publisher: "canonical"
+      offer: "0001-com-ubuntu-server-focal"
+      sku: "20_04-lts-gen2"
+      version: "latest"
+    os_disk:
+      name: os-disk
+      caching: ReadWrite
+      create_option:
+      managed_disk_type:
+      disk_size_gb:
