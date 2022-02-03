@@ -1,10 +1,11 @@
 vms:
   hub001:
     size: Standard_D2s_v3
-    vnet_name: default_vnet
-    snet_name: default_snet
+    vnet_name: hub001_group-vnet
+    snet_name: default
+    interface_name: hub001658
     os_disk:
-      name: hub001_disk1
+      name: hub001_disk1_f5a3bf3c1a7046ffb33f319506bd2860
       caching: ReadWrite
       create_option: FromImage
       managed_disk_type: Premium_LRS

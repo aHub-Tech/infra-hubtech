@@ -1,9 +1,11 @@
 variable "inputs" {
   type = map(object({
-    disable_pw_auth = bool
-    size            = string
-    snet_name       = string
-    vnet_name       = string
+    disable_pw_auth  = bool
+    size             = string
+    snet_name        = string
+    vnet_name        = string
+    interface_name   = string
+    boot_diagnostics = bool
     os_disk = object({
       caching           = string
       create_option     = string
@@ -25,5 +27,9 @@ variable "location" {
 }
 
 variable "rg_name" {
+  type = string
+}
+
+variable "public_ip_address_id" {
   type = string
 }
